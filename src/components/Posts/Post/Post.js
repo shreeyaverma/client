@@ -7,7 +7,7 @@ import moment from 'moment';
 import { useDispatch } from 'react-redux';
 
 import { likePost, deletePost } from '../../../actions/posts';
-import './post.scss'
+import './post.css'
 
 
 const Post = ({ post, setCurrentId }) => {
